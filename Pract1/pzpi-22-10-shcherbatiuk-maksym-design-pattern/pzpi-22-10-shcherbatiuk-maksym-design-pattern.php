@@ -106,4 +106,3 @@ echo $videoWithQuality->play();
 // Виведе: Відтворення відео: movie.mp4 + Субтитри: Ukrainian + Аудіо: English Dub + Якість: 1080p
 
 ?>
-
