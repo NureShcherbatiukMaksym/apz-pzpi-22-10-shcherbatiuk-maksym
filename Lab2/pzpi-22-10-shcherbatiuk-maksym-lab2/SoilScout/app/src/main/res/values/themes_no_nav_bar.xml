@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.App" parent="Theme.SoilScout">
+    </style>
+
+    <style name="Theme.SoilScout.NoActionBar.Fullscreen" parent="Theme.App">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

@@ -1,0 +1,98 @@
+<resources>
+
+    <string name="app_name">SoilScout</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="create_field_title">Створити нове поле</string>
+    <string name="edit_field_title">Редагувати поле</string>
+    <string name="field_details_title">Деталі поля</string>
+    <string name="field_name_hint">Назва поля</string>
+    <string name="field_area_hint">Площа (в гектарах)</string>
+    <string name="field_coordinates_title">Введіть координати у форматі: <code>[широта, довгота]</code>, кожна пара з нового рядка. Має утворювати замкнений полігон.</string>
+    <string name="field_coordinates_hint">[широта, довгота], ...</string>
+    <string name="button_cancel">Скасувати</string>
+    <string name="button_back">Назад</string>
+    <string name="button_create">Створити поле</string>
+    <string name="button_edit_field">Оновити поле</string>
+    <string name="button_edit">Зберегти зміни</string>
+    <string name="button_delete">Видалити поле</string>
+    <string name="field_coordinates_example">[40.7484, -93.9857],\n[40.7488, -93.9855],\n[40.7486, -93.9842],\n[40.7482, -93.9844],\n[40.7484, -93.9857]</string>
+
+    <string name="notification_channel_name">Soil Scout Alerts</string>
+    <string name="notification_channel_description">Сповіщення про відхилення показників сенсорів</string>
+
+    <string name="notification_soil_moisture_low">Низька вологість ґрунту: %.1f%%. Норма: %.1f%% - %.1f%%</string>
+    <string name="notification_soil_moisture_high">Висока вологість ґрунту: %.1f%%. Норма: %.1f%% - %.1f%%</string>
+
+    <string name="notification_temperature_low">Низька температура: %.1f°C. Норма: %.1f°C - %.1f°C</string>
+    <string name="notification_temperature_high">Висока температура: %.1f°C. Норма: %.1f°C - %.1f°C</string>
+
+    <string name="notification_acidity_low">Низька кислотність (pH): %.1f. Норма: %.1f - %.1f</string>
+    <string name="notification_acidity_high">Висока кислотність (pH): %.1f. Норма: %.1f - %.1f</string>
+
+
+
+    <string-array name="sort_criteria_options">
+        <item>@string/sort_by_name</item>
+        <item>@string/sort_by_area</item>
+        <item>@string/sort_by_created_at</item>
+    </string-array>
+
+    <string name="sort_by_name">Назва</string>
+    <string name="sort_by_area">Розмір</string>
+    <string name="sort_by_created_at">Дата створення</string>
+
+    <string-array name="filter_criteria_options">
+        <item>@string/filter_all</item>
+        <item>@string/filter_active</item>
+        <item>@string/filter_inactive</item>
+    </string-array>
+
+    <string name="filter_all">Всі</string>
+    <string name="filter_active">Активні</string>
+    <string name="filter_inactive">Неактивні</string>
+
+    <string name="language">Мова</string>
+    <string name="language_uk">УК</string>
+    <string name="language_en">EN</string>
+
+
+    <string name="profile_updated_successfully">Профіль успішно оновлено!</string>
+    <string name="profile_image_updated">Фото профілю оновлено.</string>
+    <string name="loading_profile_data">Завантаження даних профілю...</string>
+    <string name="saving_changes">Збереження змін...</string>
+    <string name="changes_saved_successfully">Зміни успішно збережено.</string>
+    <string name="profile_updated">Профіль оновлено!</string>
+    <string name="uploading_image">Завантаження зображення...</string>
+    <string name="profile_name_hint">Ім\'я користувача</string>
+    <string name="change_photo">Змінити фото профілю</string>
+    <string name="change_password">Змінити пароль</string>
+    <string name="current_password_hint">Поточний пароль</string>
+    <string name="new_password_hint">Новий пароль</string>
+    <string name="confirm_password_hint">Підтвердити новий пароль</string>
+    <string name="button_save_changes">Зберегти зміни</string>
+    <string name="button_logout">Вийти</string>
+    <string name="change_photo_text">Змінити фотографію</string>
+    <string name="language_label">Мова</string>
+    <string name="name_cannot_be_empty">Ім\'я не може бути порожнім.</string>
+    <string name="enter_valid_email">Введіть коректний Email.</string>
+    <string name="current_password_required">Поточний пароль потрібен для зміни пароля.</string>
+    <string name="new_password_min_length">Новий пароль має містити щонайменше 6 символів.</string>
+    <string name="passwords_do_not_match">Новий пароль та підтвердження не співпадають.</string>
+
+
+    <string name="error_empty_name">Ім\'я не може бути порожнім.</string>
+    <string name="error_password_mismatch">Новий пароль та підтвердження не співпадають.</string>
+    <string name="error_password_too_short">Пароль має бути не менше 6 символів.</string>
+    <string name="error_empty_password">Пароль не може бути порожнім.</string>
+
+
+    ...
+
+
+
+</resources>

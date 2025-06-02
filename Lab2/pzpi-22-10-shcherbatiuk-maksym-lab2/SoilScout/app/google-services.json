@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "444351979020",
+    "project_id": "soilscout-e77b9",
+    "storage_bucket": "soilscout-e77b9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444351979020:android:96523fab3cfc5ecb7b5829",
+        "android_client_info": {
+          "package_name": "com.example.soilscout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444351979020-5802fbqcpse4it7n0fa99cs5hjl60iun.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soilscout",
+            "certificate_hash": "5d54b5bac06a0519fbb7449c226ea6f4f30374e1"
+          }
+        },
+        {
+          "client_id": "444351979020-q7rop34595tp4rovhk3l1uedn1mpb040.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXIE-5-BfuIib0NXbgxr9pNV_Fv1q4aMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444351979020-q7rop34595tp4rovhk3l1uedn1mpb040.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
